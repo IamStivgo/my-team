@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.description,
+.user-name {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.user-name {
+    font-weight: 600;
+}
+
+article {
+    display: flex;
+}
+
+.position {
+    writing-mode: vertical-lr;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (min-width: 481px) and (max-width: 991px) {
+    .team {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    article:nth-child(2n) {
+        margin-top: 2rem;
+    }
+
+
+    .description,
+    .user-name {
+        font-size: 18px;
+        line-height: 27px;
+
+    }
+
+    .position {
+        font-size: 12px;
+        line-height: 16px;
+
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .team {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    article:nth-child(3n -1) {
+        margin-top: 2rem;
+    }
+
+    .description,
+    .user-name {
+        font-size: 22px;
+        line-height: 33px;
+
+    }
+
+    .position {
+        font-size: 14px;
+        line-height: 19px;
+
+    }
+
+}
