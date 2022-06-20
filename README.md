@@ -18,8 +18,9 @@
 
 
 ## Overview
-
-![image](https://user-images.githubusercontent.com/94694810/172734100-b6773c5a-069a-465e-b1d4-8f4afa97f605.png)
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/94694810/174653853-8b95c48a-d642-4d89-8fb6-d82b0e9fede2.png"/>
+</div>
 
 ### Built With
 
